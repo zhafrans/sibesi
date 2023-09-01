@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+
+    <!-- icons Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/siyasbi.css" />
+    <title>SI YASBI</title>
+  </head>
+  <body>
+    <a type="button" class="btn m-2" href="masyarakat.html">
+      <i class="bi bi-arrow-left bi-lg text-white"> Back</i>
+    </a>
+    <section class="py-1 header">
+      <div class="container py-4">
+        <header class="text-center mb-3 pb-5 text-white">
+          <h1 class="fw-bold">
+            SELAMAT DATANG DI SISTEM INFORMASI PELAYANAN SEPUTAR WARGA BINAAN LAPAS KELAS II A BESI NUSAKAMBANGAN <br />
+            ( SI YASBI )
+          </h1>
+          <img src="../assets/siyasbi-removebg-preview.png" class="mb-5" alt="" />
+          
+
+        <div class="row">
+          <div class="col-md-3">
+            <!-- Tabs nav -->
+            <div
+              class="nav flex-column nav-pills nav-pills-custom"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link mb-3 p-3 shadow active"
+                id="v-pills-home-tab"
+                data-toggle="pill"
+                href="#v-pills-home"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+              >
+                <i class="fa fa-user-circle-o mr-2"></i>
+                <span class="font-weight-bold small text-uppercase"
+                  >MENU</span
+                ></a
+              >
+
+              <a
+                class="nav-link mb-3 p-3 shadow"
+                id="v-pills-profile-tab"
+                data-toggle="pill"
+                href="#v-pills-profile"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+              >
+                <i class="fa fa-calendar-minus-o mr-2"></i>
+                <span class="font-weight-bold small text-uppercase"
+                  >PROFIL</span
+                ></a
+              >
+
+              <a
+                class="nav-link mb-3 p-3 shadow"
+                id="v-pills-messages-tab"
+                data-toggle="pill"
+                href="#v-pills-messages"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+              >
+                <i class="fa fa-star mr-2"></i>
+                <span class="font-weight-bold small text-uppercase"
+                  >PEMBINAAN</span
+                ></a
+              >
+
+              <a
+                class="nav-link mb-3 p-3 shadow"
+                id="v-pills-settings-tab"
+                data-toggle="pill"
+                href="#v-pills-settings"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+              >
+                <i class="fa fa-check mr-2"></i>
+                <span class="font-weight-bold small text-uppercase"
+                  >KESEHATAN</span
+                ></a
+              >
+
+              <a
+  class="nav-link mb-3 p-3 shadow"
+  id="v-pills-remisi-tab"
+  data-toggle="pill"
+  href="#v-pills-remisi"
+  role="tab"
+  aria-controls="v-pills-remisi"
+  aria-selected="false"
+>
+  <i class="fa fa-check mr-2"></i>
+  <span class="font-weight-bold small text-uppercase">REMISI</span>
+              </a>
+
+              <a
+class="nav-link mb-3 p-3 shadow"
+id="v-pills-saldo-tab"
+data-toggle="pill"
+href="#v-pills-saldo"
+role="tab"
+aria-controls="v-pills-saldo"
+aria-selected="false"
+>
+
+<i class="fa fa-check mr-2"></i>
+<span class="font-weight-bold small text-uppercase">SALDO</span>
+              </a>
+              
+              <a
+  class="nav-link mb-3 p-3 shadow"
+  id="v-pills-memo-tab"
+  data-toggle="pill"
+  href="#v-pills-memo"
+  role="tab"
+  aria-controls="v-pills-memo"
+  aria-selected="false"
+>
+  <i class="fa fa-check mr-2"></i>
+  <span class="font-weight-bold small text-uppercase">MEMO</span>
+</a>
+
+              
+            </div>
+          </div>
+
+          <div class="col-md-9">
+            <!-- Tabs content -->
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade shadow rounded bg-white show active p-5"
+                id="v-pills-home"
+                role="tabpanel"
+                aria-labelledby="v-pills-home-tab"
+              >
+            
+                <table class="table">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Isi Lapas</th>
+                      <th scope="col">RSU</th>
+                      <th scope="col">WNI</th>
+                      <th scope="col">WNA</th>
+                      <th scope="col">Kapasitas</th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-danger">
+                    <tr>
+                      <td>297</td>
+                      <td>D_</td>
+                      <td>441</td>
+                      <td>40</td>
+                      <td>365</td>
+                    </tr>
+                    
+                    
+                  </tbody>
+                </table>
+              </div>
+
+              <div
+                class="tab-pane fade shadow rounded bg-white p-5"
+                id="v-pills-profile"
+                role="tabpanel"
+                aria-labelledby="v-pills-profile-tab"
+              >
+              <div class="row justify-content-lg-center">
+                <div class="col-lg-4">
+                  <img src="../SI_BESI/assets/tripasbinwiryadi.png" class="img-fluid" style="width: 500px; height: 400px;" alt="Foto Profil" class="img-fluid w-100" />
+                </div>
+                <div class="col-lg-6 text-dark">
+                      <p><strong>Nama:</strong> TRIPAS BIN WIRYADI</p>
+                      <p><strong>Jenis Kelamin:</strong> LAKI-LAKI</p>
+                      <p><strong>Tempat/Tanggal Lahir:</strong> BANYUMAS, 23 MEI 1982</p>
+                      <p><strong>Blok/Kamar:</strong> BLOK D KAMAR 8</p>
+                      <p><strong>Alamat:</strong> TALUN RT/RW 03/07 WANGON BANYUMAS JATENG</p>
+                      <p><strong>Umur:</strong> 37 tahun</p>
+                      <p><strong>Status Nikah:</strong> BELUM</p>
+                      <p><strong>Tindak Pidana:</strong> NARKOTIKA</p>
+                      <p><strong>Lama Pidana:</strong> 12 TAHUN 3 BULAN</p>
+                </div>
+                    
+                 
+                </div>
+              
+              </div>
+
+              <div
+                class="tab-pane fade shadow rounded bg-white p-5 text-dark"
+                id="v-pills-messages"
+                role="tabpanel"
+                aria-labelledby="v-pills-messages-tab"
+              >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="card-header">
+                      <h5 class="card-title">Jadwal Pembinaan Agama</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Rabu, 01 Februari 2023</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="card-header">
+                      <h5 class="card-title">Jadwal Pembinaan Fisik</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Sabtu, 04 Februari 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="card-header">
+                      <h5 class="card-title">Jadwal Video Call</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Kamis, 02 Februari 2023</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="card-header">
+                      <h5 class="card-title">Pukul</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">09:00 - 12.30 WIB</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div
+                class="tab-pane fade shadow rounded bg-white p-5 text-dark"
+                id="v-pills-settings"
+                role="tabpanel"
+                aria-labelledby="v-pills-settings-tab"
+              >
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card mb-4">
+                    <div class="card-header">
+                      <h5 class="card-title">Riwayat Kesehatan</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">KONDISI SEHAT</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card mb-4">
+                    <div class="card-header">
+                      <h5 class="card-title">Riwayat Pemeriksaan</h5>
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <p><strong>Hari/Tanggal:</strong> Senin, 03 Mei 2023</p>
+                          <p><strong>Tempat:</strong> Poliklinik Besi</p>
+                          <p><strong>Dokter:</strong> Dr. Maskur</p>
+                          <p><strong>Perawat:</strong> Ns. Chyndy</p>
+                        </div>
+                        <div class="col">
+                          <p><strong>Tindakan:</strong> -</p>
+                          <p><strong>Penyakit:</strong> -</p>
+                          <p><strong>Resep Dokter:</strong> <button class="btn btn-sm btn-primary">Download</button></p>
+                          <p><strong>Keterangan:</strong> <button class="btn btn-sm btn-primary">Download</button></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card mb-4">
+                    <div class="card-header">
+                      <h5 class="card-title">Tindakan Lanjutan</h5>
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <p><strong>Rujuk RS:</strong> RSUD Cilacap</p>
+                          <p><strong>Kamar:</strong> 03 Dahlia</p>
+                        </div>
+                        <div class="col">
+                          <p><strong>Pengawal:</strong> Agung Fuadi</p>
+                          <p><strong>Kondisi:</strong> BAIK</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div
+                class="tab-pane fade shadow rounded bg-white p-5 text-dark"
+                id="v-pills-remisi"
+                role="tabpanel"
+                aria-labelledby="v-pills-remisi-tab">
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h5 class="card-title">SISA PIDANA SETELAH POTONGAN REMISI</h5>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">3 TAHUN 3 BULAN</p>
+                      </div>
+                    </div>
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h5 class="card-title">TANGGAL BEBAS MENJALANI PIDANA</h5>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text">12 FEBRUARI 2025</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h5 class="card-title">Riwayat REMISI</h5>
+                      </div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <p><strong>TANGGAL REMISI:</strong> 22 APRIL 2022</p>
+                            <p><strong>JENIS REMISI:</strong> HARI RAYA</p>
+                            <p><strong>POTONGAN REMISI:</strong> 2 BULAN</p>
+                            
+                          </div>
+                          <div class="col">
+                            <p><strong>TANGGAL REMISI:</strong> 17 AGUSTUS 2022</p>
+                            <p><strong>JENIS REMISI:</strong> KEMERDEKAAN</p>
+                            <p><strong>POTONGAN REMISI:</strong> -</p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h5 class="card-title">KETERANGAN REMISI</h5>
+                      </div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <p><strong>-</strong> </p>
+                            
+                          </div>
+                          <div class="col">
+                            <p><strong>-</strong> </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade shadow rounded bg-white p-5 text-dark"
+                id="v-pills-saldo"
+                role="tabpanel"
+                aria-labelledby="v-pills-saldo-tab">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h5 class="card-title">SALDO</h5>
+                      </div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <p><strong>SALDO MASUK:</strong> RP. 150,000</p>
+                          </div>
+                          <div class="col">
+                            <p><strong>SALDO KELUAR:</strong> RP. 140,000</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h5 class="card-title">TOTAL SALDO</h5>
+                      </div>
+                      <div class="card-body">
+                        <p>RP. 435,000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h5 class="card-title">RIWAYAT SALDO MASUK</h5>
+                      </div>
+                      <div class="card-body">
+                        <button class="btn btn-sm btn-primary">Download</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h5 class="card-title">RIWAYAT SALDO KELUAR</h5>
+                      </div>
+                      <div class="card-body">
+                        <button class="btn btn-sm btn-primary">Download</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="card mb-4">
+                  <div class="card-header">
+                    <h5 class="card-title">DAFTAR BELANJA HARI INI</h5>
+                  </div>
+                  <div class="card-body">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">NO</th>
+                          <th scope="col">JENIS</th>
+                          <th scope="col">NAMA</th>
+                          <th scope="col">HARGA</th>
+                          <th scope="col">JUMLAH</th>
+                          <th scope="col">DISKON</th>
+                          <th scope="col">TOTAL</th>
+                          <th scope="col">TANGGAL</th>
+                          <th scope="col">KET</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Jenis 1</td>
+                          <td>Nama 1</td>
+                          <td>Rp. 100,000</td>
+                          <td>2</td>
+                          <td>Rp. 10,000</td>
+                          <td>Rp. 190,000</td>
+                          <td>17 Juli 2023</td>
+                          <td>Keterangan 1</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jenis 2</td>
+                          <td>Nama 2</td>
+                          <td>Rp. 150,000</td>
+                          <td>1</td>
+                          <td>Rp. 0</td>
+                          <td>Rp. 150,000</td>
+                          <td>17 Juli 2023</td>
+                          <td>Keterangan 2</td>
+                        </tr>
+                        <!-- Tambahkan data dummy lainnya sesuai kebutuhan -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div
+  class="tab-pane fade shadow rounded bg-white p-5 text-dark"
+  id="v-pills-memo"
+  role="tabpanel"
+  aria-labelledby="v-pills-memo-tab"
+>
+<div class="card mb-4">
+  <div class="card-header">
+    <h5 class="card-title">02 FEBRUARI 2023</h5>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">03 Februari 2023</h5>
+            <p class="card-text">Waalaikumsalam Lorem, ipsum dolor sit amet consectetur adipisicing elit. In facere aut amet sint ipsa numquam officiis ipsam rerum, sunt aliquam? Et similique quas nostrum laboriosam placeat nulla numquam consequuntur? Sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil placeat similique adipisci, esse atque maxime, harum sequi possimus, expedita ab mollitia blanditiis suscipit nemo. Voluptatibus nam tempore veritatis est error.
+              <br>
+              <br>
+              <br>
+              TRIPAS
+            </p>   
+          </div>
+        </div>
+        <button class="btn btn-sm btn-primary">BACA</button>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">02 FEBRUARI 2023</h5>
+            <p class="card-text">Assalamualaikum Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos corporis fuga repellendus nemo quibusdam omnis saepe voluptas quasi iste neque ab, atque doloribus officia rem autem unde mollitia in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, repellendus aperiam! Minus impedit nobis consequatur. Similique sapiente, esse reprehenderit modi beatae nemo harum odio. Magnam sequi possimus nostrum praesentium consectetur!
+              <br>
+              <br>
+              <br>
+              MAMA
+            </p>
+            
+          </div>
+        </div>
+        <button class="btn btn-sm btn-primary">PESAN</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

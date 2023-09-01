@@ -1,0 +1,23 @@
+:root {
+  --header-height: 3rem;
+  --nav-width: 68px;
+  --first-color: #ff1616;
+  --first-color-light: #afa5d9;
+  --white-color: #f7f6fb;
+  --white-color2: #ffff;
+  --body-font: "Nunito", sans-serif;
+  --normal-font-size: 1rem;
+  --z-fixed: 100;
+}
+body {
+  /* background-image: url("../assets/Ic_bg.png"); */
+  background-color: var(--white-color);
+  background-size: cover;
+}
+
+.bg {
+  background-color: var(--first-color);
+}
+.title {
+  color: var(--white-color2);
+}
