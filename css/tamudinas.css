@@ -21,3 +21,15 @@ body {
 .title {
   color: var(--white-color2);
 }
+
+.card-profile {
+  transition: transform 0.2s ease-in-out;
+  
+}
+
+.card-profile a {
+  text-decoration: none; /* Menghilangkan dekorasi tautan (underline) */
+}
+.card-profile:hover {
+  transform: translateY(-5px);
+}
